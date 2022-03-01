@@ -9,7 +9,7 @@ public class Computer4 {
     private static Computer4 UniqueComputer = new Computer4();
     private Computer4() { }
 
-    public Computer4 getInstance() {
+    public static Computer4 getInstance() {
         return UniqueComputer;
     }
 }
