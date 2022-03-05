@@ -18,11 +18,9 @@ public class Book2 {
         private String publisher = "";
         private String contents = "";
 
-        public Builder() {} //확인
-
-        public Builder bookTitle(String bookTitle){
+        //필수로 입력받아야할 데이터들을 빌더의 매개변수로 지정해두면됨
+        public Builder(String bookTitle) {
             this.bookTitle = bookTitle;
-            return this;
         }
 
         public Builder author(String author){
