@@ -1,6 +1,6 @@
 package Builder;
 
-public class Book2 {
+public class Book {
 
     private final String bookTitle;
     private final String author;
@@ -43,12 +43,12 @@ public class Book2 {
             return this;
         }
 
-        public Book2 build(){
-            return new Book2(this);
+        public Book build(){
+            return new Book(this);
         }
     }
 
-    public Book2(Builder builder) {
+    public Book(Builder builder) {
         bookTitle = builder.bookTitle;
         author = builder.author;
         publisher = builder.publisher;

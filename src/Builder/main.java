@@ -2,7 +2,7 @@ package Builder;
 
 public class main {
     public static void main(String[] args) {
-        Book2 book = new Book2
+        Book book = new Book
                 .Builder("인간관계론")
                 .author("데일카네기")
                 .publisher("현대지성")
