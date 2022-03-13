@@ -2,5 +2,5 @@
 
 ### 1.Singleton Pattern
 ### 2.Builder Pattern
-### 2.Adapter Pattern
-### 2.Prototype Pattern
+### 3.Adapter Pattern
+### 4.Prototype Pattern
