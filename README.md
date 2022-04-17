@@ -6,3 +6,5 @@
 ### 4.Prototype Pattern
 ### 5.Command Pattern
 ### 6.Observer Pattern
+### 7.Iterator Pattern
+### 8.FlyWeight Pattern
